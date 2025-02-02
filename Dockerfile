@@ -1,7 +1,7 @@
 FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
 
 LABEL build_version="2.4.0"
-LABEL maintainer="Pablo Duval <pablo@redroot.me>"
+LABEL maintainer="Pablo Duval <RedrootDEV>"
 
 # Install necessary dependencies
 RUN \
