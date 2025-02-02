@@ -56,6 +56,7 @@ RUN chmod -R 777 /usr/bin/chromium
 WORKDIR /esportshelper
 
 # Install Python dependencies
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Expose port 3000
