@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine318
+FROM ghcr.io/linuxserver/baseimage-kasmvnc:alpine321
 
 LABEL build_version="2.4.0"
 LABEL maintainer="Pablo Duval <RedrootDEV>"
